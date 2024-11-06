@@ -7,7 +7,7 @@ import static seedu.internbuddy.logic.commands.CommandTestUtil.VALID_ADDRESS_MIC
 import static seedu.internbuddy.logic.commands.CommandTestUtil.VALID_EMAIL_MICROSOFT;
 import static seedu.internbuddy.logic.commands.CommandTestUtil.VALID_NAME_MICROSOFT;
 import static seedu.internbuddy.logic.commands.CommandTestUtil.VALID_PHONE_MICROSOFT;
-import static seedu.internbuddy.logic.commands.CommandTestUtil.VALID_STATUS_MICROSOFT;
+import static seedu.internbuddy.logic.commands.CommandTestUtil.VALID_STATUS_OTHER;
 import static seedu.internbuddy.logic.commands.CommandTestUtil.VALID_TAG_SOFTWARE;
 import static seedu.internbuddy.testutil.Assert.assertThrows;
 import static seedu.internbuddy.testutil.TypicalApplications.PM_APPLICATION;
@@ -89,7 +89,7 @@ public class CompanyTest {
         assertFalse(GOOGLE.equals(editedGoogle));
 
         // different status -> returns false
-        editedGoogle = new CompanyBuilder(GOOGLE).withStatus(VALID_STATUS_MICROSOFT).build();
+        editedGoogle = new CompanyBuilder(GOOGLE).withStatus(VALID_STATUS_OTHER).build();
         assertFalse(GOOGLE.equals(editedGoogle));
 
         // different applications -> return false

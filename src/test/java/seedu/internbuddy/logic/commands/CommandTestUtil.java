@@ -35,8 +35,9 @@ public class CommandTestUtil {
     public static final String VALID_EMAIL_MICROSOFT = "contact@microsoft.com";
     public static final String VALID_ADDRESS_GOOGLE = "1600 Amphitheatre Parkway, Mountain View, CA";
     public static final String VALID_ADDRESS_MICROSOFT = "One Microsoft Way, Redmond, WA";
-    public static final String VALID_STATUS_GOOGLE = "APPLIED";
+    public static final String VALID_STATUS_GOOGLE = "INTERESTED";
     public static final String VALID_STATUS_MICROSOFT = "INTERESTED";
+    public static final String VALID_STATUS_OTHER = "APPLIED";
     public static final String VALID_TAG_TECH = "tech";
     public static final String VALID_TAG_SOFTWARE = "software";
 
